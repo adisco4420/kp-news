@@ -1,0 +1,551 @@
+body {
+    margin: 0;
+    padding:0;
+    font-family: 'Roboto';
+    color: #313131;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+
+
+/*======================================
+                HEADER
+========================================*/
+
+.brand-logo img{
+    float: left;
+    margin-left: 50px;
+    width: 100px;
+    height: 80px;
+}
+
+
+header,
+footer {
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 30px;
+    padding: 10px 0;
+    background-color: lightgreen;
+}
+.top{
+    margin-bottom: 0px
+}
+/*======================================
+                NAVBAR
+========================================*/
+.cat div{
+    display: inline-block;
+    margin-left: 80px;
+    border:2px solid black;
+    padding: 5px;
+    color:white;
+    padding: 0px 20px;
+}
+.cat{
+    text-align: center;
+    background-color: rgb(0, 174, 93);
+    padding: 5px;
+    
+}
+.cat div:hover{
+    color: black;
+    background-color: green;
+}
+
+
+/*======================================
+                LATEST
+========================================*/
+
+.home-latest {
+    box-sizing: border-box;
+    padding:0px 20px;
+    width: 60%;
+    display: inline-block;
+}
+
+
+.home-latest .item .image_cover {
+    position:relative;
+    background-size: cover !important;
+    height:300px;
+    width: 100%;
+}
+.home-latest .item .description {
+    position: absolute;
+    bottom: 0px;}
+.home-latest .item .description span {
+    background: #00BCD4;
+    padding: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10px;
+}
+
+.home-latest .item .description div {
+    padding: 10px;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 700;
+    color: #fff;
+    background: rgba(55, 55, 55, 0.51);
+    width: 40%;
+}
+/*======================================
+                SLIDE NEWS
+========================================*/
+.home-slide{
+    float: right;
+    margin-top: 0px;
+    width: 30%;
+    margin-right: 50px;
+}
+.home-slide .item .image_cover {
+    position:relative;
+    background-size: cover !important;
+    height:150px;
+    width: 100%;
+}
+.home-slide .item .description {
+    position: absolute;
+    bottom: 0px;}
+.home-slide .item .description span {
+    background: #00BCD4;
+    padding: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10px;
+}
+.home-slide .item .title  {
+    border: 1px solid black;
+    padding: 5px;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    
+    
+}
+.home-slide .item .title:hover  {
+    border: 1px solid black;
+    padding: 5px;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    
+    
+}
+
+/*======================================
+                OTHER NEWS
+========================================*/
+
+.other-news {
+    box-sizing: border-box;
+    padding:10px;
+}
+.other-news h2{
+    font-weight: 300;
+}
+
+.other-news-items .item {
+    display: flex;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+}
+
+.other-news-items .item .left {
+    flex-grow: 1;
+    width: 100px;
+    height: 120px;
+    background-size: cover !important;
+    background-position: center center !important;
+}
+.other-news-items .item .right {
+    width: 80%;
+    height: 120px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+.other-news-items .item .right h3 {
+    margin: 0px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.other-news-items .item .right .category-tag {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background: #00bcd4;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.other-news-items .item .right .tags {
+    position: absolute;
+    bottom: 6px;
+}
+
+.other-news-items .item .right .tags span {
+    margin-right: 15px;
+    font-size: 12px;
+    color: #607D8B;
+}
+/*======================================
+             HIGHLIGHT VIDEOS
+========================================*/
+.highlight-videos{
+    text-align: center;
+    margin-top: 5%;
+}
+.highlight-videos .video{
+    display: inline-block;
+    margin: 10px 10px;
+    
+}
+.highlight-videos .video .video-item {
+    margin: 0px;
+}
+.highlight-videos .video .video-title{
+    border: 1px solid black;
+    margin: 0px;
+    padding: 15px 10px;
+}
+
+/*======================================
+             HOME GALLERY
+========================================*/
+
+.home-gallery {
+    text-align: left;
+    margin-bottom: 5px;
+    
+}
+.home-gallery h2 {
+    font-weight: 300;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+.home-gallery .slider-item .image {
+    background-size: cover !important;
+    background-position: center center !important;
+    width: 100%;
+    height: 370px;
+    position:relative;
+    
+}
+
+.home-gallery .slider-item .image h3 {
+    position: absolute;
+    color: #fff;
+    bottom: 0px;
+    left: 20px;
+    font-size: 30px;
+}
+
+/*======================================
+                NEWS
+========================================*/
+.news_container{
+
+}
+
+.news_container .tags {
+    background: #f8f8f8;
+    padding: 20px;
+    color: #c5c5c5;
+    font-size: 14px;
+}
+.news_container .tags span {
+    margin-right: 15px;
+}
+
+.news_container .top {
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+
+.news_container .top h2 {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0px;
+    line-height: 29px;
+}
+.news_container .top span {
+    color: #00BCD4;
+    font-weight: 300;
+    font-size: 11px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.news_container img {
+    width:70%;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.news_container .body_news {
+    padding:20px;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.link-desc{
+    color: #00BCD4
+}
+
+/*======================================
+                LEAGUE
+========================================*/
+.league-table{
+    margin: 10px 20%;
+   
+    text-align: center;
+    
+}
+.league-table table{
+    color:white;
+    background-color: #81ac0bb9
+}
+.league-table table ,td,th{
+    border: 1px solid black;
+    margin: 0px;
+}
+.league-table td,th {
+    padding: 10px;
+}
+.league-table th{
+    background-color: green;
+    color: floralwhite;
+}
+.league-table table tbody td:nth-child(1){
+    background-color:greenyellow;
+    color: floralwhite;
+}
+
+.league-table table tbody .matches{
+        border: 1px solid grey;
+}
+
+.league-table .tb{
+    text-align: center;
+    margin-left: 20%
+}
+.league-table .result-table {
+    text-align: center;
+    margin-left: 25%
+}
+.league-table .result-table tbody td:nth-child(3){
+    background-color:greenyellow;
+    color: floralwhite;
+}
+.league-table .result-table thead tr th{
+    padding: 10px 40px
+}
+.league-table .result-table  h3{
+    text-align: center;
+}
+    
+/*======================================
+               CLUBS
+========================================*/
+.clubs {
+  
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+} 
+.clubs .club-list{
+    display: inline-block;
+    width: 30%
+}
+.clubs .club-list:hover{
+    color: white;
+    background-color: gray;
+}
+
+/*======================================
+                ADDLIKES
+========================================*/
+.addlikes-wrapper {
+    margin-bottom: 20px;
+}
+.addlikes-wrapper h3 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 21px;
+}
+
+.addlikes-container {
+    display: flex;
+    align-items: center;
+ justify-content: space-between;
+
+}
+
+.addlikes-container .btn {
+    cursor: pointer;
+    text-align: center;
+    background: #f8f8f8;
+    flex: 1;
+    color: #b6d2e8;
+    font-size: 30px;
+    padding: 20px;
+}
+.addlikes-container .btn:hover {
+    background: #607D8B;
+}
+
+.addlikes-container .btn.like{
+    border-right:1px solid #fff;
+}
+.addlikes-container .btn.dislike{
+    border-left:1px solid #fff;
+}
+
+
+/*======================================
+                GALLERY ITEM
+========================================*/
+
+.slide-item-wrap h3 {
+    font-weight: 300;
+    text-align: center
+}
+.slide-item-wrap .slide-item .image {
+    height:500px;
+    background-size: cover !important;
+    background-position: center center !important;
+}
+
+.slide-item-wrap .slide-item .description {
+    box-sizing: border-box;
+    padding:20px;
+    background: #e0e0e0;
+}
+
+
+/*================================*/
+
+
+/*======================================
+                MOBILE VIEW
+========================================*/
+
+@media(max-width:500px){
+    /*======================================
+                HEADER_MOBILE
+    ========================================*/
+
+.brand-logo img{
+    float: left;
+    margin-left: 10px;
+    width: 100px;
+    height: 60px;
+}
+
+
+header,
+footer {
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 20px;
+    padding: 10px 0;
+    background-color: lightgreen;
+}
+.top{
+    margin-bottom: 10px
+}
+
+    /*======================================
+                NAVBAR_MOBILE
+    ========================================*/
+    .cat div{
+        display: block;
+        margin-left: 0px;
+        border:1px solid black;
+        padding: 5px 0px;
+        color:white;
+        
+    }
+    .cat{
+        text-align: left;
+        background-color: rgb(0, 174, 93);
+        padding: 0px;
+        
+    }
+    .cat div a{
+        margin-left: 20px
+    }
+    /*======================================
+                LATEST
+    ========================================*/
+
+.home-latest {
+    box-sizing: border-box;
+    padding:0px 20px;
+    width: 100%;
+    display: inline-block;
+}
+.home-latest .item .image_cover {
+    position:relative;
+    height:200px;
+    width: 100%;
+}
+    /*======================================
+                LATEST_MOBILE
+    ========================================*/
+
+.other-news {
+    box-sizing: border-box;
+    padding:10px;
+    text-align: center;
+}
+
+/*======================================
+                SLIDE NEWS_MOBILE
+========================================*/
+.home-slide{
+    display: block;
+    float: right;
+    margin-top: 0px;
+    width: 95%;
+    margin-right: 10px;
+    text-align: center;
+}
+.home-slide .item .image_cover {
+    position:relative;
+    background-size: cover !important;
+    height:150px;
+    width: 100%;
+    text-align: center
+}
+
+/*======================================
+                NEWS_MOBILE
+========================================*/
+
+.news_container .top h2 {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0px;
+    line-height: 23px;
+}
+
+
+}
+
+
+
