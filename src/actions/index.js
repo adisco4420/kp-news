@@ -1,4 +1,4 @@
-const URL = 'https://news-api-56be7.firebaseio.com'
+const URL = 'https://servre.herokuapp.com'
 
 ///// HOME-NEWS /////
 
